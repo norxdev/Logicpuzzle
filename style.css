@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.puzzle button {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #888;
+  background-color: #eee;
+}
+
+.puzzle button:hover {
+  background-color: #ddd;
+}
+
+.timer, .streak {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  color: green;
+}
+
+.share {
+  margin-top: 15px;
+  font-size: 14px;
+  word-wrap: break-word;
+}
